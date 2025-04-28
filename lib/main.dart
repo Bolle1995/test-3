@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,7 +7,7 @@ void main() {
 class BohrprotokollApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialAPP(
       title: 'Bohrprotokoll App',
       theme: ThemeData.dark(),
       home: Scaffold(
@@ -16,8 +15,8 @@ class BohrprotokollApp extends StatelessWidget {
           title: Text('Bohrprotokoll Start'),
         ),
         body: Center(
-          child: Text('Willkommen in der Bohrprotokoll App!'),
-        ),
+          child: Text('Willkommen in der Bohrprotokoll APP!'),
+        ),  
       ),
     );
   }
